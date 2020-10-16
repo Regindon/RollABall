@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
         _moveHorizontal = Input.GetAxis("Horizontal") * _forceMultipler;
         _moveVertical = Input.GetAxis("Vertical") * _forceMultipler;
 
-        _rigidbody.AddForce(_moveHorizontal, 0, _moveVertical);
+        _rigidbody.AddForce(_moveHorizontal,0,_moveVertical);
         
         
     }
